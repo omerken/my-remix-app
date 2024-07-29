@@ -3,15 +3,15 @@ import { Outlet } from "@remix-run/react";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Misha" },
+    { title: "New Remix App" },
     { name: "description", content: "Welcome to Remix!" },
   ];
 };
 
-export default function Index() {
+export default function ABC() {
   return (
     <>
-      <div>Home</div>
+      <div> x.y.z. - No layout</div>
       <Outlet />
     </>
   );
